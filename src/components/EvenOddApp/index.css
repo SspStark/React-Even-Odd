@@ -1,0 +1,41 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.app-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  font-family: 'Roboto';
+  text-align: center;
+  height: 350px;
+  width: 400px;
+}
+.count-value {
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.count-text {
+  color: #334155;
+  font-size: 25px;
+}
+.button {
+  color: #334155;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: 12px;
+}
+.note {
+  color: #1e293b;
+  font-size: 12px;
+}
